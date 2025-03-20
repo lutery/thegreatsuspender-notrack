@@ -239,5 +239,22 @@
     "js_update_button_export": { "message": "导出备份" },
     "js_update_button_reload": { "message": "现在更新扩展" },
     "js_shortcuts_not_set": { "message": "未设置" },
-    "js_session_save_point": { "message": "自动保存点 v" }
+    "js_session_save_point": { "message": "自动保存点 v" },
+    "html_about_welcome": { "message": "欢迎使用网页安全助手！" },
+    "html_about_intro": { "message": "本插件旨在优化浏览器内存资源的消耗，并保护您的网页数据安全。" },
+    "html_about_features_title": { "message": "主要功能：" },
+    
+    "html_about_memory_management_title": { "message": "内存资源管理：" },
+    "html_about_memory_management_item1": { "message": "自动冻结长时间未使用的标签页，释放占用的系统内存，提升浏览器性能。" },
+    "html_about_memory_management_item2": { "message": "提供灵活的配置选项，允许用户自定义冻结时间和解冻方式。" },
+    
+    "html_about_data_protection_title": { "message": "数据安全保护：" },
+    "html_about_data_protection_item1": { "message": "在冻结页面时，确保您的数据不会丢失，所有未保存的输入内容将安全保留。" },
+    "html_about_data_protection_item2": { "message": "自动刷新冻结页面，保证您在恢复使用时获得最新的网页内容。" },
+    
+    "html_about_user_friendly_title": { "message": "用户友好提示：" },
+    "html_about_user_friendly_item1": { "message": "当页面冻结时，显示友好的提示信息，告知用户页面已超过30分钟未使用，并将在短时间内自动刷新。" },
+    
+    "html_about_conclusion": { "message": "我们致力于为您提供更流畅、更安全的浏览体验。感谢您选择我们的插件！如有任何问题或建议，请随时联系我们。" }
+  
 }

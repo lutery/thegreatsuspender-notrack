@@ -2,7 +2,7 @@
   "name": "网页安全助手",
   "short_name": "网页安全助手",
   "description": "__MSG_ext_extension_description__",
-  "version": "7.1.12",
+  "version": "1.0",
   "default_locale": "en",
   "permissions": [
     "tabs",

@@ -511,3 +511,38 @@ input[type='checkbox']:checked + label:before {
   border-top-color: #333;
   animation: spinner .6s linear infinite;
 }
+
+.about-section {
+  margin-bottom: 25px;
+}
+
+.about-section h2 {
+  margin-top: 15px;
+  color: #3477db;
+}
+
+.about-section h3 {
+  margin-top: 20px;
+  color: #555;
+}
+
+.about-section h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.about-section ul {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.about-section li {
+  margin-bottom: 5px;
+}
+
+.debug-section {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #999;
+}

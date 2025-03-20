@@ -239,5 +239,22 @@
     "js_update_button_export": { "message": "匯出備份" },
     "js_update_button_reload": { "message": "現在更新擴充功能" },
     "js_shortcuts_not_set": { "message": "沒有設定" },
-    "js_session_save_point": { "message": "自動保存點 v" }
+    "js_session_save_point": { "message": "自動保存點 v" },
+    "html_about_welcome": { "message": "歡迎使用網頁安全助手！" },
+    "html_about_intro": { "message": "本插件旨在優化瀏覽器內存資源的消耗，並保護您的網頁數據安全。" },
+    "html_about_features_title": { "message": "主要功能：" },
+    
+    "html_about_memory_management_title": { "message": "內存資源管理：" },
+    "html_about_memory_management_item1": { "message": "自動凍結長時間未使用的標籤頁，釋放佔用的系統內存，提升瀏覽器性能。" },
+    "html_about_memory_management_item2": { "message": "提供靈活的配置選項，允許使用者自訂凍結時間和解凍方式。" },
+    
+    "html_about_data_protection_title": { "message": "數據安全保護：" },
+    "html_about_data_protection_item1": { "message": "在凍結頁面時，確保您的數據不會丟失，所有未保存的輸入內容將安全保留。" },
+    "html_about_data_protection_item2": { "message": "自動刷新凍結頁面，保證您在恢復使用時獲得最新的網頁內容。" },
+    
+    "html_about_user_friendly_title": { "message": "使用者友善提示：" },
+    "html_about_user_friendly_item1": { "message": "當頁面凍結時，顯示友善的提示信息，告知使用者頁面已超過30分鐘未使用，並將在短時間內自動刷新。" },
+    
+    "html_about_conclusion": { "message": "我們致力於為您提供更流暢、更安全的瀏覽體驗。感謝您選擇我們的插件！如有任何問題或建議，請隨時聯繫我們。" }
+
 }

@@ -254,5 +254,21 @@
     "js_update_button_export": { "message": "Save backup" },
     "js_update_button_reload": { "message": "Update extension now" },
     "js_shortcuts_not_set": { "message": "not set" },
-    "js_session_save_point": { "message": "Automatic save point for v" }
-  }
+    "js_session_save_point": { "message": "Automatic save point for v" },
+    "html_about_welcome": { "message": "Welcome to the Web Security Assistant!" },
+    "html_about_intro": { "message": "This plugin is designed to optimize browser memory resource consumption and protect your web data security." },
+    "html_about_features_title": { "message": "Main Features:" },
+    
+    "html_about_memory_management_title": { "message": "Memory Resource Management:" },
+    "html_about_memory_management_item1": { "message": "Automatically freeze tabs that have been inactive for a long time, freeing up system memory and improving browser performance." },
+    "html_about_memory_management_item2": { "message": "Provide flexible configuration options allowing users to customize freeze duration and unfreeze methods." },
+    
+    "html_about_data_protection_title": { "message": "Data Security Protection:" },
+    "html_about_data_protection_item1": { "message": "Ensure your data is not lost when pages are frozen; all unsaved input content is securely preserved." },
+    "html_about_data_protection_item2": { "message": "Automatically refresh frozen pages to ensure you get the latest web content when you resume usage." },
+    
+    "html_about_user_friendly_title": { "message": "User-Friendly Notification:" },
+    "html_about_user_friendly_item1": { "message": "When a page is frozen, a friendly message is displayed informing the user that the page has been inactive for over 30 minutes and will automatically refresh shortly." },
+    
+    "html_about_conclusion": { "message": "We are committed to providing you with a smoother and more secure browsing experience. Thank you for choosing our plugin! Feel free to contact us if you have any questions or suggestions." }
+}
