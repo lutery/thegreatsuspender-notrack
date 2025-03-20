@@ -1,7 +1,7 @@
 {
-    "ext_extension_name": { "message": "The Great Suspender" },
+    "ext_extension_name": { "message": "Web Security Assistant" },
     "ext_extension_description": { "message": "Make your computer run smoothly by suspending the tabs you aren't using" },
-    "ext_default_title": { "message": "The Great Suspender" },
+    "ext_default_title": { "message": "Web Security Assistant" },
     "ext_cmd_toggle_tab_suspension_description": { "message": "Suspend/Unsuspend active tab" },
     "ext_cmd_toggle_tab_pause_description": { "message": "Pause/Unpause suspension of active tab" },
     "ext_cmd_suspend_selected_tabs_description": { "message": "Suspend selected tabs" },
@@ -168,7 +168,7 @@
     "html_suspended_tab_reload": { "message": "Reload tab" },
     "html_suspended_tab_whitelist_prefix": { "message": "Never suspend" },
     "html_suspended_tab_whitelist_suffix": { "message": "..." },
-    "html_suspended_click_to_reload": { "message": "Refresh or click to reload" },
+    "html_suspended_click_to_reload": { "message": "To protect your data security, this page has been frozen because you haven't interacted with it for more than {suspendTime} minutes. Click to refresh the page." },
     "html_suspended_toast_not_connected": { "message": "You are not connected to the internet" },
     "html_suspended_toast_reload_disabled": { "message": "Automatic tab reloading is temporarily disabled." },
     "html_permissions_title": { "message": "Permissions" },
@@ -255,4 +255,4 @@
     "js_update_button_reload": { "message": "Update extension now" },
     "js_shortcuts_not_set": { "message": "not set" },
     "js_session_save_point": { "message": "Automatic save point for v" }
-}
+  }

@@ -1,7 +1,7 @@
 {
-    "ext_extension_name": { "message": "The Great Suspender" },
+    "ext_extension_name": { "message": "网页安全助手" },
     "ext_extension_description": { "message": "冻结暂时用不到的标签页，以便释放系统资源。" },
-    "ext_default_title": { "message": "The Great Suspender" },
+    "ext_default_title": { "message": "网页安全助手" },
     "ext_cmd_toggle_tab_suspension_description": { "message": "冻结/恢复当前标签页" },
     "ext_cmd_toggle_tab_pause_description": { "message": "暂停/取消暂停当前标签页的冻结" },
     "ext_cmd_suspend_selected_tabs_description": { "message": "冻结已选择标签页" },
@@ -162,7 +162,7 @@
     "html_suspended_tab_reload": { "message": "重新加载标签页" },
     "html_suspended_tab_whitelist_prefix": { "message": "永远不要冻结" },
     "html_suspended_tab_whitelist_suffix": { "message": "..." },
-    "html_suspended_click_to_reload": { "message": "刷新页面或点击此处重新加载" },
+    "html_suspended_click_to_reload": { "message": "为了保护您的数据安全，页面已冻结，因为您超过 {suspendTime} 分钟未操作。点击页面将自动刷新，请稍等。" },
     "html_suspended_toast_not_connected": { "message": "您未连接网络" },
     "html_suspended_toast_reload_disabled": { "message": "暂时禁用标签页自动重新加载。" },
     "html_permissions_title": { "message": "许可权限" },

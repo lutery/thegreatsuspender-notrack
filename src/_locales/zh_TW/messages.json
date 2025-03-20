@@ -1,7 +1,7 @@
 {
-    "ext_extension_name": { "message": "The Great Suspender" },
+    "ext_extension_name": { "message": "網頁安全助手" },
     "ext_extension_description": { "message": "凍結暫時用不到的分頁，達到系統資源釋放。" },
-    "ext_default_title": { "message": "The Great Suspender" },
+    "ext_default_title": { "message": "網頁安全助手" },
     "ext_cmd_toggle_tab_suspension_description": { "message": "凍結/回復目前分頁" },
     "ext_cmd_toggle_tab_pause_description": { "message": "暫停/取消暫停目前分頁的凍結" },
     "ext_cmd_suspend_selected_tabs_description": { "message": "凍結已選擇分頁" },
@@ -162,7 +162,7 @@
     "html_suspended_tab_reload": { "message": "重新載入" },
     "html_suspended_tab_whitelist_prefix": { "message": "永遠不要凍結" },
     "html_suspended_tab_whitelist_suffix": { "message": "" },
-    "html_suspended_click_to_reload": { "message": "點擊此處重新載入" },
+    "html_suspended_click_to_reload": { "message": "為了保護您的數據安全，頁面已凍結，因為您超過 {suspendTime} 分鐘未操作。點擊頁面將自動刷新，請稍等。" },
     "html_suspended_toast_not_connected": { "message": "您沒有連接到網絡" },
     "html_suspended_toast_reload_disabled": { "message": "禁用自動重新載入。" },
     "html_permissions_title": { "message": "許可權限" },

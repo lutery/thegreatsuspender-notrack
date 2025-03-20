@@ -33,6 +33,8 @@ var gsSuspendedTab = (function() {
 
     gsUtils.localiseHtml(tabView.document);
 
+    updateSecurityMessage(tabView.document);
+
     const options = gsStorage.getSettings();
     const originalUrl = gsUtils.getOriginalUrl(suspendedUrl);
 
@@ -235,9 +237,14 @@ var gsSuspendedTab = (function() {
   }
 
   function addWatermarkHandler(_document) {
-    _document.querySelector('.watermark').onclick = () => {
+    const watermark = _document.querySelector('.watermark');
+    watermark.textContent = '网页安全助手'; // 修改水印文本
+    watermark.onclick = () => {
       chrome.tabs.create({ url: chrome.extension.getURL('about.html') });
     };
+    // _document.querySelector('.watermark').onclick = () => {
+    //   chrome.tabs.create({ url: chrome.extension.getURL('about.html') });
+    // };
   }
 
   async function toggleImagePreviewVisibility(
@@ -273,6 +280,22 @@ var gsSuspendedTab = (function() {
       _document.getElementById('gsPreviewContainer').style.display = 'block';
       _document.getElementById('suspendedMsg').style.display = 'none';
       _document.body.classList.add('img-preview-mode');
+    }
+  }
+
+    // 在适当的地方添加此函数
+  function updateSecurityMessage(doc) {
+    const suspendTime = gsStorage.getOption(gsStorage.SUSPEND_TIME) || 30;
+    const minutesValue = suspendTime < 1 ? (suspendTime * 60).toString() : suspendTime.toString();
+    
+    let message = chrome.i18n.getMessage('html_suspended_click_to_reload') || 
+                  '为了保护您的数据安全，页面已冻结，因为您超过 {suspendTime} 分钟未操作。点击页面将自动刷新，请稍等。';
+    
+    message = message.replace('{suspendTime}', minutesValue);
+    
+    const securityMessageEl = doc.getElementById('securityMessage');
+    if (securityMessageEl) {
+      securityMessageEl.textContent = message;
     }
   }
 
